@@ -1,6 +1,8 @@
 import Vue from 'vue'
 
-import { Tabbar, TabbarItem  } from 'vant';
+import { Tabbar, TabbarItem ,Search } from 'vant';
 
 Vue.use(Tabbar);
 Vue.use(TabbarItem);
+Vue.use(Search);
+

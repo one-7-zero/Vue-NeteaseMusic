@@ -7,7 +7,10 @@ import Vuetify, {
   VIcon,
   VNavigationDrawer,
   VAppBarNavIcon,
-  VBottomNavigation
+  VBottomNavigation,
+  VTextField,
+  VRow,
+  VCol
 } from 'vuetify/lib'
 import colors from 'vuetify/lib/util/colors'
 
@@ -19,7 +22,10 @@ Vue.use(Vuetify, {
     VAppBarNavIcon,
     VBottomNavigation,
     VBtn,
-    VIcon
+    VIcon,
+    VTextField,
+    VCol,
+    VRow
   },
 })
 
