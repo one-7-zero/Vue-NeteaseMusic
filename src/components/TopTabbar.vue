@@ -1,10 +1,9 @@
 <template>
   <div>
-    <v-navigation-drawer app fixed v-model="showMenu"> </v-navigation-drawer>
-    <v-app-bar fixed dense dark>
+    <v-app-bar dense dark>
       <v-app-bar-nav-icon @click="ShowMenu"></v-app-bar-nav-icon>
-     
     </v-app-bar>
+    <v-navigation-drawer app v-model="showMenu"> </v-navigation-drawer>
   </div>
 </template>
 

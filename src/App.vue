@@ -14,7 +14,7 @@ import TopTabbar from "@/components/TopTabbar.vue";
 export default {
   components: {
     BottomNav,
-    TopTabbar
+    TopTabbar,
   },
 };
 </script>

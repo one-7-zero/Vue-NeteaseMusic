@@ -6,6 +6,8 @@
       :value="index"
       :to="{ path: item.path }"
       :click="changeIcon"
+      :plain="true"
+      :ripple="false"
     >
       <span>{{ item.name }}</span>
       <svg class="icon" aria-hidden="true">
@@ -56,16 +58,6 @@ export default {
       },
     ],
   }),
-  // methods: {
-  //   changeIcon() {
-  //     console.log(this.value);
-  //     for (var index = 0; index < this.btnlist.length; index++) {
-  //       this.btnlist[index].icon = iconList[index][0];
-  //     }
-  //     this.btnlist[this.value].icon = iconList[this.value][1];
-  //   },
-  // },
-
   computed: {
     changeIcon() {
       console.log(this.value);
@@ -80,5 +72,5 @@ export default {
 };
 </script>
 
-<style>
+<style lang="sass" scoped>
 </style>

@@ -10,7 +10,8 @@ import Vuetify, {
   VBottomNavigation,
   VTextField,
   VRow,
-  VCol
+  VCol,
+  VChip
 } from 'vuetify/lib'
 import colors from 'vuetify/lib/util/colors'
 
@@ -25,7 +26,8 @@ Vue.use(Vuetify, {
     VIcon,
     VTextField,
     VCol,
-    VRow
+    VRow,
+    VChip
   },
 })
 
